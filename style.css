@@ -26,15 +26,11 @@
 .box {
     height: 100%;
     width: 100%;
-    border: dashed;
-    border-color: blue;
-
+    border: none;
 }
 
 .hoveredBox {
     height: 100%;
     width: 100%;
-    border: dashed;
-    border-color: blue;
     background-color: black;
 }
