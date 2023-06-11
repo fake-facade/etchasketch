@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 960px;
+    height: 960px;
+    border: solid;
+    border-color: black;
+    background-color: cadetblue;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    border: dashed;
+    border-color: blue;
+
+}
+
+.hoveredBox {
+    height: 100%;
+    width: 100%;
+    border: dashed;
+    border-color: blue;
+    background-color: black;
+}
